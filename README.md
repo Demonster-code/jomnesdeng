@@ -1,0 +1,2 @@
+# jomnesdeng
+static with netlify
