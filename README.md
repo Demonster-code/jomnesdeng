@@ -1,2 +1,2 @@
 # jomnesdeng
-static with netlify
+Hi! my name is Choumy
