@@ -1,0 +1,62 @@
+body{
+  background-image: url(library2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background:linear-gradient(#C0C0C0,#000000);
+    
+}
+li a
+{
+    float: left;
+    display: flexbox;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: lightblue;
+    border-right: greenyellow 1px groove ;
+    min-width:90px;
+    font-family: 'Angkor',cursive;
+}
+li a:hover{
+    background:linear-gradient(#000000,#c0c0c0);
+    animation: myAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes myAnimation{
+    50% {text-shadow: 10px 0px 10px gold;}
+}
+.top
+{
+    background-color:rgb(25, 25, 39);
+    padding: 10px 20px;
+    font-size: 40px;
+    
+}
+.top a{
+    position: relative;
+    left: 100px;
+    color:#d11804;
+    text-shadow:0px 0px 10px blanchedalmond;
+    font-family: 'Dangrek', cursive;
+}
+#logo1{
+   position: absolute;
+   top: 25px;
+   left: -50px;
+   
+ 
+}
+#sp1{
+    color: yellowgreen;
+}
+
